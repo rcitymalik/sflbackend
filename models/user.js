@@ -11,6 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       user.hasOne(models.team,{foreignKey:"userId"})
+      user.hasMany(models.bid,{foreignKey:"userId"})
+      user.hasMany(models.auction,{foreignKey:"userId"})
     }
   }
   user.init({

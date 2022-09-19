@@ -1,6 +1,6 @@
 {
   "development": {
-    "url": "postgres://dnsszaek:HcEY4Nbj3CKguUi8oTBYA3VTDS8TsDEf@jelani.db.elephantsql.com/dnsszaek",
+    "url": "postgres://ivwtswml:oGhXIUtE1BjV3zRpJrV8LeEfK7-FiMw5@jelani.db.elephantsql.com/ivwtswml",
     "dialect": "postgres"
   },
   "test": {
